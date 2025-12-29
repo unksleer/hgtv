@@ -4,7 +4,6 @@ Automated daily entry system for HGTV Dream Home and Food Network sweepstakes us
 
 ## ⚠️ Important Disclaimers
 
-- **Terms of Service**: Automated entry may violate sweepstakes terms of service. This tool is for educational purposes. Review official rules before use.
 - **CAPTCHA**: Forms use Google reCAPTCHA which may require manual solving. The script will pause for 60 seconds when CAPTCHA is detected.
 - **Rate Limiting**: Entries are limited to once per day per email address per site.
 
