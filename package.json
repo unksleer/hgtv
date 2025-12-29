@@ -1,0 +1,29 @@
+{
+    "name": "hgtv-sweepstakes-automation",
+    "version": "1.0.0",
+    "description": "Automated daily entry system for HGTV Dream Home and Food Network sweepstakes",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node index.js",
+        "manual:hgtv": "node index.js --manual --site=hgtv",
+        "manual:foodnetwork": "node index.js --manual --site=foodnetwork",
+        "dry-run:hgtv": "node index.js --dry-run --site=hgtv",
+        "dry-run:foodnetwork": "node index.js --dry-run --site=foodnetwork",
+        "test-schedule": "node index.js --test-schedule"
+    },
+    "keywords": [
+        "sweepstakes",
+        "automation",
+        "hgtv",
+        "food-network"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "puppeteer": "^24.2.0",
+        "node-cron": "^3.0.3",
+        "dotenv": "^16.4.1",
+        "winston": "^3.11.0"
+    }
+}
